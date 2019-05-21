@@ -1,0 +1,54 @@
+body{
+    background-color: #f7f7f7;
+}
+div.container{
+    width: 35%;
+    margin-top: 100px;
+    background-color: #3f8f8d;
+    border: 1px solid #3f8f8d;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.remeber_me{
+    width: 22%;
+}
+.center{
+    margin: 0 auto;
+}
+h2 , p ,h5{
+    color: white;
+}
+h2{
+    padding-top: 50px;
+    text-align: center;
+    color: #ffb228;
+}
+input[type='text'] , input[type='password']{
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+p{
+    display: none;
+    text-align: center;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #ffb228;
+}
+input , button{
+    display: block;
+}
+input[type='checkbox']{
+    display: inline;
+}
+h5{
+    display: inline-block;
+    
+}

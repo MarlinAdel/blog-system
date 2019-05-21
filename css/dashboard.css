@@ -1,0 +1,46 @@
+body{
+    background-color: #f7f7f7;
+}
+#header div{
+   background-color: #3f8f8d; 
+}
+.grid div{
+     border: 1px solid #3f8f8d;
+}
+#header , .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+div.grid:nth-child(even) {background: #e0dfdf}
+div.grid:nth-child(odd) {background: #f7f7f7}
+#header div{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffb228;
+}
+.grid .name{
+    padding: 15px;
+}
+.grid .content{
+    padding: 10px;
+}
+.grid div:last-child{
+    padding: 25px;
+}
+button.edit{
+    border: none;
+    padding: 5px 15px;
+    background-color: #3f8f8d;
+    color: white;
+}
+button.delete{
+    border: none;
+    padding: 5px 10px;
+    background-color: #ffb228;
+    color: white;
+}
+}
